@@ -1,4 +1,6 @@
-# WDIO PhantomJS Service [![Build Status](https://travis-ci.org/cognitom/wdio-phantomjs-service.svg?branch=master)](https://travis-ci.org/cognitom/wdio-phantomjs-service)
+# WDIO PhantomJS Service
+
+[![Build Status][travis-image]][travis-url]
 
 This service helps you to run PhantomJS seamlessly when running tests with the [WDIO testrunner](http://webdriver.io/guide/testrunner/gettingstarted.html). It uses [phantom-prebuilt](https://www.npmjs.com/package/phantom-prebuilt) NPM package.
 
@@ -28,3 +30,6 @@ export.config = {
 ----
 
 For more information on WebdriverIO see the [homepage](http://webdriver.io).
+
+[travis-image]:https://img.shields.io/travis/cognitom/wdio-phantomjs-service.svg?style=flat-square
+[travis-url]:https://travis-ci.org/cognitom/wdio-phantomjs-service
