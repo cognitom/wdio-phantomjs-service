@@ -19,5 +19,8 @@ exports.config = {
   },
   services: [
     require('../launcher')
+  ],
+  phantomjsArgs: [
+    '--webdriver-logfile=phantomjs.log'
   ]
 }
