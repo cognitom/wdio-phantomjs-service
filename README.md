@@ -27,6 +27,28 @@ export.config = {
 };
 ```
 
+## Options
+
+### phantomjsOpts
+Map of arguments for the PhantomJs, passed directly to `phantomjs.run()`.
+
+Type: `Object`
+
+Default: `{ webdriver: 4444 }`
+
+```js
+// wdio.conf.js
+export.config = {
+  // ...
+  services: ['phantomjs'],
+  phantomjsOpts: {
+    webdriverLogfile: 'phantomjs.log',
+    ignoreSslErrors: true
+  }
+  // ...
+};
+```
+
 ----
 
 For more information on WebdriverIO see the [homepage](http://webdriver.io).

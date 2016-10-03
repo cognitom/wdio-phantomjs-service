@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/cognitom/wdio-phantomjs-service#readme",
   "dependencies": {
+    "lodash": "^4.16.2",
     "phantomjs-prebuilt": "^2.1.10"
   },
   "devDependencies": {
