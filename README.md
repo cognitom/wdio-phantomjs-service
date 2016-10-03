@@ -43,7 +43,7 @@ export.config = {
   services: ['phantomjs'],
   phantomjsArgs: [
     '--webdriver-logfile=phantomjs.log',
-    '----ignore-ssl-errors=true'
+    '--ignore-ssl-errors=true'
   ]
   // ...
 };
