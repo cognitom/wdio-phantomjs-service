@@ -15,7 +15,8 @@ exports.config = {
   connectionRetryCount: 3,
   framework: 'mocha',
   mochaOpts: {
-    ui: 'bdd'
+    ui: 'bdd',
+    timeout: 30000
   },
   services: [
     require('../launcher')
