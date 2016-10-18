@@ -9,8 +9,8 @@
     "lib"
   ],
   "scripts": {
-    "test": "npm run eslint && npm run wdio",
-    "eslint": "eslint lib/*.js",
+    "test": "npm run standard && npm run wdio",
+    "standard": "standard lib/*.js",
     "wdio": "wdio test/wdio.conf.js"
   },
   "repository": {
@@ -31,13 +31,13 @@
   },
   "homepage": "https://github.com/cognitom/wdio-phantomjs-service#readme",
   "dependencies": {
-    "lodash": "^4.16.2",
-    "phantomjs-prebuilt": "^2.1.10"
+    "change-case": "^3.0.0",
+    "phantomjs-prebuilt": "^2.1.13"
   },
   "devDependencies": {
-    "eslint": "^3.2.2",
-    "mocha": "^3.0.1",
-    "wdio-mocha-framework": "^0.4.0",
-    "webdriverio": "^4.2.3"
+    "mocha": "^3.1.2",
+    "standard": "^8.4.0",
+    "wdio-mocha-framework": "^0.4.3",
+    "webdriverio": "^4.2.16"
   }
 }
