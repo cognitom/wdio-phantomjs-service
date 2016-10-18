@@ -30,11 +30,11 @@ export.config = {
 ## Options
 
 ### phantomjsOpts
-Map of arguments for the PhantomJs, passed directly to `phantomjs.run()`.
 
-Type: `Object`
+You can set the options for PhantomJS. Use the same properties in `config.json` file. See details [here](http://phantomjs.org/api/command-line.html#command-line-options).
 
-Default: `{ webdriver: 4444 }`
+- Type: `Object`
+- Default: `{ webdriver: 4444 }`
 
 ```js
 // wdio.conf.js
